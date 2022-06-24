@@ -28,11 +28,11 @@
 .middel-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:5px;
+    grid-gap:10px;
 }
 
 .card-container{
-    
+    background-color:orangered;
 }
 .card-container-2{
     border: 1px solid red;
