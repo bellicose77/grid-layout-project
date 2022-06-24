@@ -28,7 +28,12 @@
 .middel-container{
     border: 1px solid red;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:5px;
+}
+
+.card-container{
+    border: 1px solid red;
 }
 
 .footer-container{
