@@ -35,6 +35,13 @@
 .card-container{
     border: 1px solid red;
 }
+.card-container-2{
+    border: 1px solid red;
+}
+
+.side-container{
+    border: 1px solid red;
+}
 
 .footer-container{
     border: 1px solid red;
