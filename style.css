@@ -15,9 +15,9 @@
 }
 .main-container{
     border: 1px solid red;
-    height: 800px;
+    height: 600px;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 150px 1fr 150px;
     grid-row-gap: 5px;
 }
 .header-container{
@@ -27,6 +27,8 @@
 
 .middel-container{
     border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
 }
 
 .footer-container{
