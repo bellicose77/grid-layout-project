@@ -5,7 +5,13 @@
 .grid-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
-    border: 1px solid red;
+   
 }
+
+.navigation-container{
+    border: 1px solid red;
+    height: 400px;
+}
+
 
 
