@@ -4,13 +4,18 @@
 
 .grid-container{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px 1fr;
+    grid-gap: 4px;
    
 }
 
 .navigation-container{
     border: 1px solid red;
-    height: 400px;
+    height: 600px;
+}
+.main-container{
+    border: 1px solid red;
+    height: 600px;
 }
 
 
