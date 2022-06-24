@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+h2{
+    text-align: center;
+}
 
 .grid-container{
     display:grid;
@@ -22,8 +25,9 @@
 }
 .header-container{
     background-color:salmon;
-
+  
 }
+
 
 .middel-container{
     display: grid;
@@ -41,6 +45,7 @@
 .side-container{
     display: grid;
     grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
 }
 .card-container-3{
     background-color:salmon;
