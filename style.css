@@ -15,7 +15,22 @@
 }
 .main-container{
     border: 1px solid red;
-    height: 600px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+}
+.header-container{
+    border: 1px solid red;
+
+}
+
+.middel-container{
+    border: 1px solid red;
+}
+
+.footer-container{
+    border: 1px solid red;
 }
 
 
