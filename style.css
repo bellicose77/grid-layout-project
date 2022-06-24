@@ -5,7 +5,7 @@
 .grid-container{
     display:grid;
     grid-template-columns: 400px 1fr;
-    grid-gap: 4px;
+    grid-gap: 15px;
     background-color: seashell;
    
 }
@@ -15,19 +15,17 @@
     height: 600px;
 }
 .main-container{
-    border: 1px solid red;
     height: 600px;
     display: grid;
     grid-template-rows: 150px 1fr 150px;
-    grid-row-gap: 5px;
+    grid-row-gap: 15px;
 }
 .header-container{
-    border: 1px solid red;
+    background-color:orangered;
 
 }
 
 .middel-container{
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:5px;
